@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgba(109, 197, 109, 0.637);
+
+    
+}
+
+header {
+    background-color: rgba(11, 185, 84, 0.712);
+    text-align: center;
+}
+
+nav {
+    text-align: left;
+    background-color:
+}
+
+a:hover {
+    color: white;
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    box
+}
+
+
+@font-face {
+    font-family: 'idroid.otf';
+    src: url('idroid.otf'); fortmat: ('opentype');
+}
+
+body {
+font-family: 'idroid', Helvetica, sans-serif;
+
+}
+
+h1 {
+    background-color: rgba(21, 221, 21, 0.438);
+    color: green;
+}

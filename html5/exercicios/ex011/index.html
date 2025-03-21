@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br   ">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML 5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes<br> ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width:700px)" srcset="imagens/foto1.png" type="image/png">
+        <source media="(max-width: 800px)" srcset="imagens/foto2.png" type="image/png">
+        <img src="Imagens/foto3.png" alt="Imagemflexivel">
+    </picture>
+
+
+    <h1>Reproduzindo áudio</h1>
+     <p>Vamos aprender a reproduzir áudio.</p>
+     <audio preload="metadata" autoplay controls loop>
+     <source src="midia/morningsurf (1).mp3" type="audio/mpeg">
+     </audio>
+     <!--cuidado com formato mp3 wav ogg-->
+
+</body>
+</html>
