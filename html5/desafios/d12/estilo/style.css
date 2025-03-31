@@ -59,21 +59,45 @@ section {
     font-size: 3.5vw;
 }
 
+section > p {
+    padding-bottom: 2em;
+}
+
 section.normal {
     background-color: white;
     color: black;
 }
 
 section.imagem {
-    background-color: rgb(95, 94, 94);
+    background-color: rgb(109, 108, 108, 0.322);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.651);
+    background-attachment: fixed;
 }
 
 section.imagem > p {
     display: inline-block;
     padding: 5px;
-    background-color: rgb(109, 108, 108);
+    background-color: rgba(109, 108, 108, 0.322);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
 
+}
+
+section#img01 {
+    background-image: url('../imagens/imagem01.jpg!d');
+    background-position: right center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+section#img02 {
+    background-image: url('../imagens/imagem02.jpg!d');
+    background-position: righ center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+     
 }
 
 a:hover {
